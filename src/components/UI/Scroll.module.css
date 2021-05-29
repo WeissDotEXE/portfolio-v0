@@ -1,0 +1,33 @@
+.scrollbar .bar {
+  z-index: 0;
+  width: 4px;
+  height: 100vh;
+  background-color: #00FFF5;
+  position: fixed;
+  top: 100px;
+  left: 31.8%;
+}
+
+.scrollbar .dot {
+  position: fixed;
+  top: 300px;
+  left: 31.2%;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #00FFF5;
+}
+
+@media only screen and (max-width: 1367px) {
+  .scrollbar .dot {
+    left: 30.91%;
+    top: 290px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .scrollbar {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Scroll.module.css.map */

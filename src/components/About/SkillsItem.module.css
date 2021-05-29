@@ -1,0 +1,48 @@
+.skillItem {
+  padding: 10px 20px 10px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #F2F4F7;
+  border-radius: 20px;
+  font-size: 25px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.skillItem h5 {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.skillItem:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #00FFF5;
+}
+
+.skillItem:hover h5 {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1367px) {
+  .skillItem {
+    width: 30%;
+    padding: 10px 18px 10px 18px;
+    font-size: 25px;
+  }
+}
+/*# sourceMappingURL=SkillsItem.module.css.map */

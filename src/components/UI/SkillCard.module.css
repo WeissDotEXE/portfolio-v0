@@ -1,0 +1,58 @@
+.skillCard {
+  padding: 20px 30px 55px 30px;
+  position: absolute;
+  bottom: 48%;
+  left: 32.5%;
+  color: black;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  background-color: #F2F4F7;
+  border-radius: 10px;
+  width: 300px;
+  height: 100px;
+  z-index: 3;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.363), 0 6px 20px 0 rgba(255, 255, 255, 0.281);
+          box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.363), 0 6px 20px 0 rgba(255, 255, 255, 0.281);
+}
+
+.skillCard .topCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.skillCard .topCard i {
+  color: black;
+  font-size: 30px;
+}
+
+.skillCard p {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 1367px) {
+  .skillCard {
+    width: 160px;
+    height: 150px;
+    bottom: 47%;
+    left: 42.5%;
+  }
+  .skillCard p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .skillCard {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+  }
+}
+/*# sourceMappingURL=SkillCard.module.css.map */

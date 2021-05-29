@@ -1,0 +1,143 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-31.02%, #F12929), color-stop(-26.47%, #B0202F), color-stop(-23.62%, #861B33), color-stop(-10.75%, #5A1537), color-stop(7.66%, #2D0F3C), color-stop(20.53%, #0F0B3F), color-stop(34.42%, #0B082F), to(#000000)) fixed;
+  background: linear-gradient(360deg, #F12929 -31.02%, #B0202F -26.47%, #861B33 -23.62%, #5A1537 -10.75%, #2D0F3C 7.66%, #0F0B3F 20.53%, #0B082F 34.42%, #000000 100%) fixed;
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.about {
+  position: relative;
+  left: 30%;
+  width: 50%;
+  padding: 72px;
+}
+
+.about .aboutHeader {
+  padding: 50px 0px 50px 0px;
+  z-index: 1;
+  color: #00FFF5;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+}
+
+.about .aboutText {
+  margin-left: 35px;
+  color: #F2F4F7;
+  font-size: 20px;
+}
+
+.about .languages {
+  color: #F2F4F7;
+  font-family: "Lato", sans-serif;
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+.about .languages th {
+  color: grey;
+}
+
+.about .languages td {
+  padding: 10px 30px 0px 30px;
+}
+
+.about .resume {
+  margin-top: 13%;
+}
+
+.about .resume button {
+  background-color: transparent;
+  margin: 20px;
+  font-size: 30px;
+  color: #F2F4F7;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.about .resume #resumeBtn {
+  margin-left: 0;
+  background-color: #F2F4F7;
+  border-radius: 30px;
+  padding: 10px 25px 10px 25px;
+  color: black;
+  font-size: 18px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-family: "Lato", sans-serif;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.about .resume button:hover {
+  color: #00FFF5;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.about .resume #resumeBtn:hover {
+  background-color: #00FFF5;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.about .resume a i {
+  position: relative;
+  top: 7px;
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 1367px) {
+  .about .aboutHeader {
+    font-size: 35px;
+  }
+  .about #aboutTxt {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    width: 100%;
+    left: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .about .resume {
+    margin-top: 61%;
+    margin-bottom: 0;
+    padding: 0px;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about .resume #resumeBtn {
+    margin-right: 0px;
+  }
+  .about a i {
+    position: relative;
+    top: 7px;
+    font-size: 40px;
+  }
+  .about .aboutHeader {
+    margin-top: 0%;
+    padding-left: 35px;
+  }
+  .about .aboutText {
+    width: 70%;
+    padding: 0px 0px 0px 30px;
+  }
+  .about .languages {
+    padding: 0px 0px 0px 22px;
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=About.module.css.map */

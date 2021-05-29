@@ -1,0 +1,47 @@
+.avatarDiv .avatarOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-0.89%, #0A072B), color-stop(13.08%, rgba(9, 8, 41, 0.850477)), color-stop(32.43%, rgba(4, 7, 20, 0.343993)), color-stop(57.95%, rgba(1, 7, 10, 0.091335)), to(rgba(0, 6, 6, 0))), -webkit-gradient(linear, left top, left bottom, color-stop(1.22%, #010101), color-stop(40.97%, rgba(0, 0, 0, 0.03125)));
+  background: linear-gradient(90deg, #0A072B -0.89%, rgba(9, 8, 41, 0.850477) 13.08%, rgba(4, 7, 20, 0.343993) 32.43%, rgba(1, 7, 10, 0.091335) 57.95%, rgba(0, 6, 6, 0) 100%), linear-gradient(180deg, #010101 1.22%, rgba(0, 0, 0, 0.03125) 40.97%);
+  height: 100vh;
+  width: 30%;
+  z-index: -1;
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.avatarDiv #avatarImage {
+  opacity: 0.8;
+  z-index: -2;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100vh;
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+@media only screen and (max-width: 600px) {
+  .avatarDiv .avatarOverlay {
+    position: absolute;
+    background: -webkit-gradient(linear, left bottom, left top, from(#080622), color-stop(66.33%, rgba(196, 196, 196, 0)));
+    background: linear-gradient(0deg, #080622 0%, rgba(196, 196, 196, 0) 66.33%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 54vh;
+  }
+  .avatarDiv #avatarImage {
+    opacity: 65%;
+    position: absolute;
+    width: 100%;
+    height: 54vh;
+    padding: 0%;
+    margin: 0%;
+  }
+}
+/*# sourceMappingURL=Avatar.module.css.map */

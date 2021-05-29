@@ -1,0 +1,238 @@
+@import "../variables.scss";
+
+
+.presentation {
+  padding-top: 120px;
+  .leftPresentation {
+    //animations for letters
+    .letters {
+      font-family: $PrimaryFont;
+      font-size: $h1FontSizeFHDhome;
+      color: $PrimaryColor;
+      display: flex;
+      flex-direction: row;
+      text-decoration: none;
+      padding: 40px;
+      list-style-type: none;
+      transition: 0.5s;
+      padding-left: $PaddingLeftRight;
+      //animation for individual letters
+      #w {
+        transition: 0.6s;
+      }
+      #e1 {
+        transition: 0.6s;
+      }
+      #i {
+        transition: 0.6s;
+      }
+      #s1 {
+        transition: 0.6s;
+      }
+      #s2 {
+        transition: 0.6s;
+      }
+      #d {
+        transition: 0.6s;
+      }
+      #o {
+        transition: 0.6s;
+      }
+      #t {
+        transition: 0.6s;
+      }
+      #e2 {
+        transition: 0.6s;
+      }
+      #x {
+        transition: 0.6s;
+      }
+      #e3 {
+        transition: 0.6s;
+      }
+      #w:hover {
+        transition: 0.3s;
+        transform: translateY(-18px);
+        color: $EmphasizeColor;
+      }
+      #e1:hover {
+        transition: 0.3s;
+        transform: translateY(-18px);
+        color: $EmphasizeColor;
+      }
+      #i:hover {
+        transition: 0.3s;
+        transform: translateY(-18px);
+        color: $EmphasizeColor;
+      }
+      #s1:hover {
+        transition: 0.3s;
+        transform: translateY(-18px);
+        color: $EmphasizeColor;
+      }
+      #s2:hover {
+        transition: 0.3s;
+        transform: translateY(-18px);
+        color: $EmphasizeColor;
+      }
+      #d:hover {
+        transition: 0.3s;
+        transform: translateY(-18px);
+        color: $EmphasizeColor;
+      }
+      #o:hover {
+        transition: 0.3s;
+        transform: translateY(-18px);
+        color: $EmphasizeColor;
+      }
+      #t:hover {
+        transition: 0.3s;
+        transform: translateY(-18px);
+        color: $EmphasizeColor;
+      }
+      #e2:hover {
+        transition: 0.3s;
+        transform: translateY(-18px);
+        color: $EmphasizeColor;
+      }
+      #x:hover {
+        transition: 0.3s;
+        transform: translateY(-18px);
+        color: $EmphasizeColor;
+      }
+      #e3:hover {
+        transition: 0.3s;
+        transform: translateY(-18px);
+        color: $EmphasizeColor;
+      }
+    }
+    .jobs {
+      display: flex;
+      flex-direction: row;
+      padding: $PaddingLeftRight;
+      position: relative;
+      bottom: 50px;
+      #job1 {
+        font-family: $PrimaryFont;
+        font-size: $h3FontSizeFHDhome;
+        color: $EmphasizeColor;
+      }
+      #job2 {
+        font-family: $PrimaryFont;
+        font-size: $h3FontSizeFHDhome;
+        color: grey;
+      }
+    }
+  }
+  #contactBtn {
+    cursor:pointer;
+    background-color: transparent;
+    color: $EmphasizeColor;
+    border: 4px solid $EmphasizeColor;
+    font-family: $PrimaryFont;
+    font-weight: bolder;
+    font-size: 50px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: $PaddingLeftRight;
+    position: relative;
+    bottom: 80px;
+    transition: 0.3s;
+  }
+  #contactBtn:hover {
+    transition: 0.3s;
+    background-color: black;
+    color: $BackgroundColor;
+  }
+  .rightPresentation {
+    #image {
+      position: absolute;
+      right: 57px;
+      top: 250px;
+      width: $ImageWidthHeightFHDhome;
+      height: $ImageWidthHeightFHDhome;
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+    }
+  }
+}
+
+@media only screen and (max-width: 1367px) {
+  .presentation{
+    border: 0;
+    margin: 0;
+    margin-top: 30px;
+    .leftPresentation{
+      .letters{
+        font-size:$h1FontSizeHDhome;
+        padding-top: 0;
+      }
+      .jobs{
+        padding-top: 40px;
+        padding-bottom: 80px;
+        #job1{
+          font-size: $h3FontSizeHDhome;
+        }
+        #job2{
+          font-size: $h3FontSizeHDhome;
+        }
+      }
+    }
+    #contactBtn{
+      margin-top: 20px;
+      font-size: 30px;
+      margin-bottom: 0;
+    }
+    .rightPresentation{
+      padding: 0;
+      #image{
+        top:125px;
+        width: $ImageWidthHeightHDhome;
+        height: $ImageWidthHeightHDhome;
+      }
+    }
+  }
+}
+@media only screen and (max-width:600px){
+  .presentation{
+    max-width: 100%;
+    .leftPresentation{
+      margin: auto;
+      margin-top: -17px;
+      .letters{
+        font-size: 55px;
+        display: flex;
+        justify-content: center;
+        margin:0;
+        padding: 0;
+      }
+      .jobs{
+        margin-top: 30px;
+        #job1{
+          font-size: 23px;
+        }
+        #job2{
+          font-size:23px;
+        }
+      }
+      #contactBtn{
+        position: absolute;
+        bottom: 0%;
+        margin:0px 0px 60px 0px;
+        padding: 8px;
+        width: 100%;
+      }
+    }
+    .rightPresentation{
+      position: relative;
+      margin-top: 20px;
+      #image{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 67%;
+      }
+    }
+  }
+}
