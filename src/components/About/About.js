@@ -3,7 +3,7 @@ import styles from './About.module.scss';
 import Transition from '../Transition/Transition';
 import Skills from './Skills';
 import { useSpring, animated } from 'react-spring';
-import backgroundVideo from "../video/typing_video.mp4";
+import backgroundVideo from "../video/typing_video.webm";
 import { Player } from 'video-react';
 //STATIC list of objects witch contains skills with title, image and description
 const skills = [
