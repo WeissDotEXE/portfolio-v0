@@ -28,7 +28,7 @@
 .skillItem:hover {
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  color: #00FFF5;
+  color: #009AFF;
 }
 
 .skillItem:hover h5 {

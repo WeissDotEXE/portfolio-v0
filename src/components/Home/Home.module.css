@@ -1,11 +1,4 @@
-.presentation {
-  padding-top: 120px;
-}
-
-.presentation .leftPresentation .letters {
-  font-family: "Lato", sans-serif;
-  font-size: 150px;
-  color: #F2F4F7;
+.home {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,297 +6,197 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  text-decoration: none;
-  padding: 40px;
-  list-style-type: none;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  padding-left: 72px;
 }
 
-.presentation .leftPresentation .letters #w {
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-.presentation .leftPresentation .letters #e1 {
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-.presentation .leftPresentation .letters #i {
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-.presentation .leftPresentation .letters #s1 {
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-.presentation .leftPresentation .letters #s2 {
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-.presentation .leftPresentation .letters #d {
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-.presentation .leftPresentation .letters #o {
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-.presentation .leftPresentation .letters #t {
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-.presentation .leftPresentation .letters #e2 {
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-.presentation .leftPresentation .letters #x {
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-.presentation .leftPresentation .letters #e3 {
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-.presentation .leftPresentation .letters #w:hover {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transform: translateY(-18px);
-          transform: translateY(-18px);
-  color: #00FFF5;
-}
-
-.presentation .leftPresentation .letters #e1:hover {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transform: translateY(-18px);
-          transform: translateY(-18px);
-  color: #00FFF5;
-}
-
-.presentation .leftPresentation .letters #i:hover {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transform: translateY(-18px);
-          transform: translateY(-18px);
-  color: #00FFF5;
-}
-
-.presentation .leftPresentation .letters #s1:hover {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transform: translateY(-18px);
-          transform: translateY(-18px);
-  color: #00FFF5;
-}
-
-.presentation .leftPresentation .letters #s2:hover {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transform: translateY(-18px);
-          transform: translateY(-18px);
-  color: #00FFF5;
-}
-
-.presentation .leftPresentation .letters #d:hover {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transform: translateY(-18px);
-          transform: translateY(-18px);
-  color: #00FFF5;
-}
-
-.presentation .leftPresentation .letters #o:hover {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transform: translateY(-18px);
-          transform: translateY(-18px);
-  color: #00FFF5;
-}
-
-.presentation .leftPresentation .letters #t:hover {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transform: translateY(-18px);
-          transform: translateY(-18px);
-  color: #00FFF5;
-}
-
-.presentation .leftPresentation .letters #e2:hover {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transform: translateY(-18px);
-          transform: translateY(-18px);
-  color: #00FFF5;
-}
-
-.presentation .leftPresentation .letters #x:hover {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transform: translateY(-18px);
-          transform: translateY(-18px);
-  color: #00FFF5;
-}
-
-.presentation .leftPresentation .letters #e3:hover {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transform: translateY(-18px);
-          transform: translateY(-18px);
-  color: #00FFF5;
-}
-
-.presentation .leftPresentation .jobs {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  padding: 72px;
-  position: relative;
-  bottom: 50px;
-}
-
-.presentation .leftPresentation .jobs #job1 {
-  font-family: "Lato", sans-serif;
-  font-size: 50px;
-  color: #00FFF5;
-}
-
-.presentation .leftPresentation .jobs #job2 {
-  font-family: "Lato", sans-serif;
-  font-size: 50px;
-  color: grey;
-}
-
-.presentation #contactBtn {
-  cursor: pointer;
-  background-color: transparent;
-  color: #00FFF5;
-  border: 4px solid #00FFF5;
-  font-family: "Lato", sans-serif;
-  font-weight: bolder;
-  font-size: 50px;
-  border-radius: 15px;
-  padding: 10px;
-  margin: 72px;
-  position: relative;
-  bottom: 80px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.presentation #contactBtn:hover {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  background-color: black;
-  color: linear-gradient(307.04deg, #F12929 -13.77%, #B0202F -9.4%, #861B33 -6.66%, #5A1537 5.69%, #2D0F3C 23.36%, #0F0B3F 35.72%, #0B082F 49.06%, #000000 112.03%);
-}
-
-.presentation .rightPresentation #image {
+.home #titlePhone {
   position: absolute;
-  right: 57px;
-  top: 250px;
-  width: 550px;
-  height: 550px;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+  opacity: 0;
 }
 
-@media only screen and (max-width: 1367px) {
-  .presentation {
-    border: 0;
-    margin: 0;
-    margin-top: 30px;
+.home #navbarLogo {
+  width: 120px;
+  height: 160px;
+  position: absolute;
+  bottom: 90%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.home .blankSpace {
+  width: 80px;
+  height: 100vh;
+  background-color: transparent;
+  z-index: 3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.home .leftSide {
+  width: 50%;
+  height: 100vh;
+  background-color: black;
+}
+
+.home .leftSide #aboutTxt {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  position: absolute;
+  left: 0;
+  top: 45%;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  color: #F2F4F7;
+  font-size: 45px;
+}
+
+.home .leftSide #leftImage {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 15rem;
+  height: 18rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: -7.53rem;
+  border-radius: 100% 0% 0% 100%;
+  -webkit-filter: brightness(85%);
+          filter: brightness(85%);
+}
+
+.home .rightSide {
+  width: 50%;
+  height: 100vh;
+  background-color: #F2F4F7;
+}
+
+.home .rightSide #portofolioTxt {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  position: absolute;
+  right: 0;
+  top: 45%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  color: black;
+  font-size: 45px;
+}
+
+.home .rightSide #rightImage {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 15rem;
+  height: 18rem;
+  margin-left: 7.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0% 100% 100% 0%;
+  -webkit-filter: brightness(85%);
+          filter: brightness(85%);
+}
+
+.home .leftSide:hover #aboutTxt {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-left: 30px;
+  color: #009AFF;
+}
+
+.home .leftSide:hover #leftImage {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 23rem;
+  margin-left: -11.5rem;
+  border-radius: 30% 0% 0% 30%;
+  -webkit-filter: brightness(110%);
+          filter: brightness(110%);
+}
+
+.home .rightSide:hover #portofolioTxt {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-right: 30px;
+  color: #009AFF;
+}
+
+.home .rightSide:hover #rightImage {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 23rem;
+  margin-left: 11.5rem;
+  border-radius: 0% 30% 30% 0%;
+  -webkit-filter: brightness(110%);
+          filter: brightness(110%);
+}
+
+@media only screen and (min-width: 1400px) {
+  .home .leftSide #leftImage {
+    height: 28rem;
   }
-  .presentation .leftPresentation .letters {
-    font-size: 85px;
-    padding-top: 0;
-  }
-  .presentation .leftPresentation .jobs {
-    padding-top: 40px;
-    padding-bottom: 80px;
-  }
-  .presentation .leftPresentation .jobs #job1 {
-    font-size: 25px;
-  }
-  .presentation .leftPresentation .jobs #job2 {
-    font-size: 25px;
-  }
-  .presentation #contactBtn {
-    margin-top: 20px;
-    font-size: 30px;
-    margin-bottom: 0;
-  }
-  .presentation .rightPresentation {
-    padding: 0;
-  }
-  .presentation .rightPresentation #image {
-    top: 125px;
-    width: 380px;
-    height: 380px;
+  .home .rightSide #rightImage {
+    height: 28rem;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .presentation {
-    max-width: 100%;
+  .home #titlePhone {
+    position: absolute;
+    z-index: 4;
+    color: #F2F4F7;
   }
-  .presentation .leftPresentation {
-    margin: auto;
-    margin-top: -17px;
+  .home .leftSide {
+    width: 50%;
   }
-  .presentation .leftPresentation .letters {
-    font-size: 55px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  .home .leftSide #aboutTxt {
+    font-size: 32px;
+    z-index: 3;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    margin-top: 10rem;
+    padding-left: 15px;
+  }
+  .home .leftSide #leftImage {
+    height: 15rem;
+    width: 11rem;
     margin: 0;
-    padding: 0;
+    margin-left: -5rem;
+    -webkit-filter: brightness(65%);
+            filter: brightness(65%);
   }
-  .presentation .leftPresentation .jobs {
-    margin-top: 30px;
+  .home .rightSide {
+    background-color: black;
+    width: 50%;
+    margin: 0;
   }
-  .presentation .leftPresentation .jobs #job1 {
-    font-size: 23px;
+  .home .rightSide #portofolioTxt {
+    color: #F2F4F7;
+    font-size: 32px;
+    z-index: 3;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    margin-top: 10rem;
+    padding-right: 15px;
   }
-  .presentation .leftPresentation .jobs #job2 {
-    font-size: 23px;
-  }
-  .presentation .leftPresentation #contactBtn {
-    position: absolute;
-    bottom: 0%;
-    margin: 0px 0px 60px 0px;
-    padding: 8px;
-    width: 100%;
-  }
-  .presentation .rightPresentation {
-    position: relative;
-    margin-top: 20px;
-  }
-  .presentation .rightPresentation #image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    width: 67%;
+  .home .rightSide #rightImage {
+    margin-left: 5.4rem;
+    height: 15rem;
+    width: 11rem;
+    -webkit-filter: brightness(70%);
+            filter: brightness(70%);
   }
 }
 /*# sourceMappingURL=Home.module.css.map */

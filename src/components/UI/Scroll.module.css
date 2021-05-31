@@ -2,7 +2,7 @@
   z-index: 0;
   width: 4px;
   height: 100vh;
-  background-color: #00FFF5;
+  background-color: #009AFF;
   position: fixed;
   top: 100px;
   left: 31.8%;
@@ -15,7 +15,7 @@
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #00FFF5;
+  background: #009AFF;
 }
 
 @media only screen and (max-width: 1367px) {

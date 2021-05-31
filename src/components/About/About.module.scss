@@ -1,132 +1,17 @@
 @import '../variables.scss';
-html{
-    scroll-behavior: smooth;
-}
 
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 body{
-    width: 100%;
-    height: 100vh;
-    background: $mobileBackgorund fixed;
-    max-width: 100%;
-    box-sizing: border-box;
+    background: black;
 }
-
 .about{
-    position: relative;
-    left: 30%;
-    width: 50%;
-    padding: $PaddingLeftRight;
-
-    .aboutHeader{
-        padding: 50px 0px 50px 0px;
-        z-index: 1;
-        color: $EmphasizeColor;
-        font-size: $h1FontSizeFHD;
-        font-family: $PrimaryFont;
-    }
-    .aboutText{
-        margin-left: 35px;
-        color: $PrimaryColor;
-        font-size: $pFontSizeFHD;
-    }
-    .languages{
-        color: $PrimaryColor;
-        font-family: $PrimaryFont;
-        padding-left: 30px;
-        font-size: 20px;
-        th{
-            color: grey;
-        }
-        td{
-            padding: 10px 30px 0px 30px;
-        }
-    }
-    .resume{
-        margin-top: 13%;
-        button{
-            background-color: transparent;
-            margin: 20px;
-            font-size: 30px;
-            color: $PrimaryColor;
-            transition: 0.4s;
-            cursor: pointer;
-        }
-        #resumeBtn{
-            margin-left: 0;
-            background-color: $PrimaryColor;
-            border-radius: 30px;
-            padding: 10px 25px 10px 25px;
-            color: black;
-            font-size: 18px;
-            transition: 0.4s;
-            font-family: $PrimaryFont;
-            margin-right: 10px;
-            margin-left:10px;
-        }
-        button:hover{
-            color: $EmphasizeColor;
-            transition: 0.4s;
-        }
-        #resumeBtn:hover{
-            background-color: $EmphasizeColor;
-            transition: 0.4s;
-        }
-        a{
-            i{
-                position: relative;
-                top:7px;
-                font-size: 40px;
-            }
-        }
-    }
-    
-}
-@media only screen and(max-width:1367px){
-    .about{
-        .aboutHeader{
-            font-size: 35px;
-        }
-        #aboutTxt{
-            font-size: 18px;
-        }
-    }
-}
-@media only screen and(max-width:600px){
-    .about{
+    #videoo{
         width: 100%;
-        left: 0;
-        padding-right:0;
-        padding-left: 0;
-
-        .resume{
-            margin-top: 61%;
-            margin-bottom: 0;
-            padding: 0px;
-            text-align: center;
-            align-items: center;
-            #resumeBtn{
-                margin-right: 0px;
-            }
-        }
-        a{
-            i{
-                position: relative;
-                top:7px;
-                font-size: 40px;
-            }
-        }
-        .aboutHeader{
-            margin-top: 0%;
-            padding-left: 35px;
-        }
-        .aboutText{
-            width: 70%;
-            padding: 0px 0px 0px 30px;
-        }
-        .languages{
-            padding: 0px 0px 0px 22px;
-            font-size: 11px;
-        }
+        height: 100%;
+        z-index: 100;
     }
-    
 }
