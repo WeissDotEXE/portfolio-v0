@@ -1,5 +1,4 @@
 @import '../variables.scss';
-
 *{
     margin: 0;
     padding: 0;
@@ -9,9 +8,285 @@ body{
     background: black;
 }
 .about{
-    #videoo{
+    position: relative;
+    .intro{ 
+        background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%),url(https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+        background-attachment:fixed;
         width: 100%;
-        height: 100%;
-        z-index: 100;
+        height: 100vh;
+        background-size: cover;
+        position: relative;
+        #intro_txt{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: $PrimaryColor;
+            font-size: 100px;
+        }
+        .intro_btn{
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            a{  
+                transition: 0.7s;
+                padding: 20px;
+                color: $PrimaryColor;
+                i{
+                    font-size: 40px;
+                }
+                button{
+                    transition: 0.5s;
+                    padding: 5px 20px 5px 20px;
+                    font-size: 25px;
+                    border-radius: 25px;
+                    font-weight: bolder;
+                    position: relative;
+                    bottom: 4px;
+                }
+            }
+            a:hover{
+                transition: 0.7s;
+                color: $EmphasizeColor;
+                button{
+                    background: $EmphasizeColor;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+    .presentation{
+        background-attachment: fixed;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        #first_txt{
+            position: relative;
+            top: 40%;           
+            color: $PrimaryColor;
+            font-size: $h1FontSize_1FHD;
+            padding: $padding_left_right;
+        }
+        #second_txt{
+            position: relative;
+            top: 45%;
+            color: $EmphasizeColor;
+            font-size: $h1FontSize_2FHD;
+            padding: $padding_left_right;
+        }
+        #avatar1{
+            width: 18%;
+            height: 45%;
+            object-fit: cover;
+            position: absolute;
+            right: 25%;
+            top: 13%;
+        }
+        #avatar2{
+            width: 18%;
+            height: 45%;
+            object-fit: cover;
+            position: absolute;
+            right: 10%;
+            top: 46%;
+        }
+    }
+    .studies{
+        width: 100%;
+        height: 60vh;
+        background-color: $PrimaryColor;
+        position: relative;
+        #studies_txt{
+            position: absolute;
+            top: 25%;
+            transform: translate(0, -50%);
+            color: black;
+            width: 55%;
+            padding: $padding_left_right;
+            font-size: $h1FontSize_2FHD;
+        }
+        #studies_txt2{
+            position: absolute;
+            bottom: 13%;
+            transform: translate(0, -50%);
+            color: black;
+            width: 55%;
+            padding: $padding_left_right;
+            font-size: $h1FontSize_2FHD;
+        }
+        img{
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            right: 0;
+            height: 70%;
+            padding: $padding_left_right;
+        }
+    }
+    .learning{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        #image_overlay{
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            height: 80vh;
+            background: linear-gradient(360deg, #000000 6.36%, rgba(0, 0, 0, 0.56) 129.7%);
+        }
+        img{
+            width: 100%;
+            height: 80vh;
+            object-fit: cover;
+        }
+        #learning_txt1{
+            position: absolute;
+            left: 0;
+            padding: $padding_left_right;
+            top:13%;
+            color: $PrimaryColor;
+            font-size: $h1FontSize_1FHD;
+            width: 50%;
+            z-index: 1;
+        }
+        #learning_txt2{
+            position: absolute;
+            right: 0;
+            padding: $padding_left_right;
+            bottom:13%;
+            color: $PrimaryColor;
+            font-size: $h1FontSize_1FHD;
+            width: 50%;
+            z-index: 1;
+        }
+    }
+    .so_now{
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        .so_now_txt{
+            position: relative;
+            top: 25%;
+            #left_line{
+                position: relative;
+                width: 8px;
+                height: 350px;
+                background-color: $EmphasizeColor;
+                left: 0;
+                top: 50%;
+                margin: $padding_left_right;
+            }
+            h1{
+                position: absolute;
+                color: $PrimaryColor;
+                width: 40%;
+                height: 100%;
+                top:25%;
+                font-size: $h1FontSize_1FHD;
+                padding: $padding_left_right;
+                margin-left: 7%;
+            }
+        }
+        iframe{
+            position: absolute;
+            overflow: hidden;
+            width: 480px;
+            height: 264px;
+            right: 0;
+            padding: $padding_left_right;
+            bottom: 34%;
+        }
+    }
+    .skills{
+        background: #0099ff34;
+        width: 100%;
+        height: 60vh;
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        margin-top: 8%;
+    }
+    .languages{
+        margin-top: 3%;
+        max-width: 100%;
+        height: 30vh;
+        color: $PrimaryColor;
+        padding: $padding_left_right;
+        h1{
+            font-size: $h1FontSize_1FHD;
+            color: $EmphasizeColor;
+            margin-bottom: 20px;
+        }
+        .languages_txt{
+            display: flex;
+            p{
+                padding:20px 40px 0px 0px;
+                font-size: $h1FontSize_2FHD;
+            }
+        }
     }
 }
+
+
+@media only screen and(max-width:1367px){
+    .about{
+        .presentation{
+            #first_txt{
+                font-size: $h1FontSize_1HD;
+            }
+            #second_txt{
+                font-size: $h1FontSize_2HD;
+            }
+        }
+        .studies{
+            #studies_txt{
+                font-size: $h1FontSize_2HD;
+            }
+            #studies_txt2{
+                font-size:$h1FontSize_2HD;
+            }
+        }
+        .learning{
+            #learning_txt1{
+                font-size: $h1FontSize_1HD;
+            }
+            #learning_txt2{
+                font-size: $h1FontSize_1HD;
+            }
+        }
+        .so_now{
+            .so_now_txt{
+                position: relative;
+                top: 25%;
+                h1{
+                    top:33%;
+                    font-size:$h1FontSize_1HD;
+                    margin-left:4.5%;
+                }
+            }
+            iframe{
+                position: absolute;
+                overflow: hidden;
+                width: 480px;
+                height: 264px;
+                right: 0;
+                padding: $padding_left_right;
+                bottom: 16%;
+            }
+        }
+        .skills{
+            height: 70vh;
+        }
+        .languages{
+            h1{
+                font-size: $h1FontSize_2FHD;
+            }
+            .languages_txt{
+                p{
+                    font-size: $h1FontSize_2HD;
+                }
+            }
+        }
+    }
+}
+

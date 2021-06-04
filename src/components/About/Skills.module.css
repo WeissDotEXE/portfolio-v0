@@ -1,22 +1,39 @@
-.skillsList {
-  margin: 0;
+.skill_card {
+  width: 100%;
+  position: relative;
+  left: 50%;
+  top: -15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-@media only screen and (max-width: 600px) {
-  .skills {
-    overflow: auto;
+.skill_card #skills_txt {
+  padding: 30px 0px 10px 0px;
+}
+
+.skill_card p {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  padding: 18px;
+  font-size: 20px;
+}
+
+.skill_card i {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1367px) {
+  .skill_card #skills_txt {
+    font-size: 25px;
+    padding: 20px 0px 10px 0px;
   }
-  .skills ::-webkit-scrollbar {
-    opacity: 0;
+  .skill_card p {
+    font-size: 18px;
   }
-  .skills .skillsList {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-left: 40px;
+  .skill_card i {
+    font-size: 30px;
   }
 }
 /*# sourceMappingURL=Skills.module.css.map */

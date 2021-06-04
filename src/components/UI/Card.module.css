@@ -1,0 +1,19 @@
+.card {
+  position: relative;
+  background: #009AFF;
+  border-radius: 15px;
+  z-index: 1;
+  height: 60vh;
+  width: 50%;
+  text-align: center;
+  color: #F2F4F7;
+  margin: 50px;
+}
+
+@media only screen and (max-width: 1367px) {
+  .card {
+    height: 77vh;
+    margin: 0px 20px 0px 20px;
+  }
+}
+/*# sourceMappingURL=Card.module.css.map */

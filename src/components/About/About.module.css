@@ -8,9 +8,321 @@ body {
   background: black;
 }
 
-.about #videoo {
+.about {
+  position: relative;
+}
+
+.about .intro {
+  background: -webkit-gradient(linear, left bottom, left top, from(#000000), to(rgba(0, 0, 0, 0))), url(https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url(https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-attachment: fixed;
   width: 100%;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+.about .intro #intro_txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #F2F4F7;
+  font-size: 100px;
+}
+
+.about .intro .intro_btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.about .intro .intro_btn a {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  padding: 20px;
+  color: #F2F4F7;
+}
+
+.about .intro .intro_btn a i {
+  font-size: 40px;
+}
+
+.about .intro .intro_btn a button {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 5px 20px 5px 20px;
+  font-size: 25px;
+  border-radius: 25px;
+  font-weight: bolder;
+  position: relative;
+  bottom: 4px;
+}
+
+.about .intro .intro_btn a:hover {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  color: #009AFF;
+}
+
+.about .intro .intro_btn a:hover button {
+  background: #009AFF;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.about .presentation {
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.about .presentation #first_txt {
+  position: relative;
+  top: 40%;
+  color: #F2F4F7;
+  font-size: 55px;
+  padding: 0px 8% 0px 8%;
+}
+
+.about .presentation #second_txt {
+  position: relative;
+  top: 45%;
+  color: #009AFF;
+  font-size: 40px;
+  padding: 0px 8% 0px 8%;
+}
+
+.about .presentation #avatar1 {
+  width: 18%;
+  height: 45%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  right: 25%;
+  top: 13%;
+}
+
+.about .presentation #avatar2 {
+  width: 18%;
+  height: 45%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  right: 10%;
+  top: 46%;
+}
+
+.about .studies {
+  width: 100%;
+  height: 60vh;
+  background-color: #F2F4F7;
+  position: relative;
+}
+
+.about .studies #studies_txt {
+  position: absolute;
+  top: 25%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  color: black;
+  width: 55%;
+  padding: 0px 8% 0px 8%;
+  font-size: 40px;
+}
+
+.about .studies #studies_txt2 {
+  position: absolute;
+  bottom: 13%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  color: black;
+  width: 55%;
+  padding: 0px 8% 0px 8%;
+  font-size: 40px;
+}
+
+.about .studies img {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  right: 0;
+  height: 70%;
+  padding: 0px 8% 0px 8%;
+}
+
+.about .learning {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.about .learning #image_overlay {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 80vh;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(6.36%, #000000), color-stop(129.7%, rgba(0, 0, 0, 0.56)));
+  background: linear-gradient(360deg, #000000 6.36%, rgba(0, 0, 0, 0.56) 129.7%);
+}
+
+.about .learning img {
+  width: 100%;
+  height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about .learning #learning_txt1 {
+  position: absolute;
+  left: 0;
+  padding: 0px 8% 0px 8%;
+  top: 13%;
+  color: #F2F4F7;
+  font-size: 55px;
+  width: 50%;
+  z-index: 1;
+}
+
+.about .learning #learning_txt2 {
+  position: absolute;
+  right: 0;
+  padding: 0px 8% 0px 8%;
+  bottom: 13%;
+  color: #F2F4F7;
+  font-size: 55px;
+  width: 50%;
+  z-index: 1;
+}
+
+.about .so_now {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+
+.about .so_now .so_now_txt {
+  position: relative;
+  top: 25%;
+}
+
+.about .so_now .so_now_txt #left_line {
+  position: relative;
+  width: 8px;
+  height: 350px;
+  background-color: #009AFF;
+  left: 0;
+  top: 50%;
+  margin: 0px 8% 0px 8%;
+}
+
+.about .so_now .so_now_txt h1 {
+  position: absolute;
+  color: #F2F4F7;
+  width: 40%;
   height: 100%;
-  z-index: 100;
+  top: 25%;
+  font-size: 55px;
+  padding: 0px 8% 0px 8%;
+  margin-left: 7%;
+}
+
+.about .so_now iframe {
+  position: absolute;
+  overflow: hidden;
+  width: 480px;
+  height: 264px;
+  right: 0;
+  padding: 0px 8% 0px 8%;
+  bottom: 34%;
+}
+
+.about .skills {
+  background: #0099ff34;
+  width: 100%;
+  height: 60vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin-top: 8%;
+}
+
+.about .languages {
+  margin-top: 3%;
+  max-width: 100%;
+  height: 30vh;
+  color: #F2F4F7;
+  padding: 0px 8% 0px 8%;
+}
+
+.about .languages h1 {
+  font-size: 55px;
+  color: #009AFF;
+  margin-bottom: 20px;
+}
+
+.about .languages .languages_txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .languages .languages_txt p {
+  padding: 20px 40px 0px 0px;
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 1367px) {
+  .about .presentation #first_txt {
+    font-size: 45px;
+  }
+  .about .presentation #second_txt {
+    font-size: 30px;
+  }
+  .about .studies #studies_txt {
+    font-size: 30px;
+  }
+  .about .studies #studies_txt2 {
+    font-size: 30px;
+  }
+  .about .learning #learning_txt1 {
+    font-size: 45px;
+  }
+  .about .learning #learning_txt2 {
+    font-size: 45px;
+  }
+  .about .so_now .so_now_txt {
+    position: relative;
+    top: 25%;
+  }
+  .about .so_now .so_now_txt h1 {
+    top: 33%;
+    font-size: 45px;
+    margin-left: 4.5%;
+  }
+  .about .so_now iframe {
+    position: absolute;
+    overflow: hidden;
+    width: 480px;
+    height: 264px;
+    right: 0;
+    padding: 0px 8% 0px 8%;
+    bottom: 16%;
+  }
+  .about .skills {
+    height: 70vh;
+  }
+  .about .languages h1 {
+    font-size: 40px;
+  }
+  .about .languages .languages_txt p {
+    font-size: 30px;
+  }
 }
 /*# sourceMappingURL=About.module.css.map */

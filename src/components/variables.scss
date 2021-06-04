@@ -10,20 +10,17 @@ $PaddingLeftRight:72px;
 $NavbarLinkFont:30px;
 $NavbarPadding:0px 60px 0px 45px;
 
-//variables for home page 1080p
+//variables for FHD screens
 
-$h1FontSizeFHDhome:150px;
-$h3FontSizeFHDhome:50px;
-$ImageWidthHeightFHDhome:550px;
+$h1FontSize_1FHD:55px;
+$h1FontSize_2FHD:40px;
 
-//variables for home page 720p
 
-$h1FontSizeHDhome:85px;
-$h3FontSizeHDhome:25px;
-$ImageWidthHeightHDhome:380px;
+//variables for HD screens
 
-//variables for global
-$h1FontSizeFHD:40px;
-$h3FontSizeHD:40px;
-$pFontSizeFHD:20px;
+$h1FontSize_1HD:45px;
+$h1FontSize_2HD:30px;
+$padding_left_right:0px 8% 0px 8%;
 
+
+//variables for mobile screens

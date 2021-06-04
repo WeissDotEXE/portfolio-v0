@@ -69,8 +69,10 @@
      object-fit: cover;
   margin-left: -7.53rem;
   border-radius: 100% 0% 0% 100%;
-  -webkit-filter: brightness(85%);
-          filter: brightness(85%);
+  filter: brightness(85%);
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(60%);
 }
 
 .home .rightSide {
@@ -105,8 +107,10 @@
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 0% 100% 100% 0%;
-  -webkit-filter: brightness(85%);
-          filter: brightness(85%);
+  filter: brightness(85%);
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(80%);
 }
 
 .home .leftSide:hover #aboutTxt {
@@ -114,6 +118,7 @@
   transition: 0.4s;
   margin-left: 30px;
   color: #009AFF;
+  font-size: 55px;
 }
 
 .home .leftSide:hover #leftImage {
@@ -122,8 +127,10 @@
   width: 23rem;
   margin-left: -11.5rem;
   border-radius: 30% 0% 0% 30%;
-  -webkit-filter: brightness(110%);
-          filter: brightness(110%);
+  filter: brightness(110%);
+  -webkit-filter: grayscale(0%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
 }
 
 .home .rightSide:hover #portofolioTxt {
@@ -131,6 +138,7 @@
   transition: 0.4s;
   margin-right: 30px;
   color: #009AFF;
+  font-size: 55px;
 }
 
 .home .rightSide:hover #rightImage {
@@ -139,16 +147,22 @@
   width: 23rem;
   margin-left: 11.5rem;
   border-radius: 0% 30% 30% 0%;
-  -webkit-filter: brightness(110%);
-          filter: brightness(110%);
+  filter: brightness(110%);
+  -webkit-filter: grayscale(0%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
 }
 
 @media only screen and (min-width: 1400px) {
   .home .leftSide #leftImage {
     height: 28rem;
+    width: 20rem;
+    margin-left: -10rem;
   }
   .home .rightSide #rightImage {
+    margin-left: 10rem;
     height: 28rem;
+    width: 20rem;
   }
 }
 
