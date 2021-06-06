@@ -23,15 +23,26 @@
 
 @media only screen and(max-width:1367px){
  .skill_card{
+   top:-10%;
    #skills_txt{
      font-size: 25px;
      padding: 20px 0px 10px 0px;
    }
    p{
-     font-size:18px;
+     font-size:20px;
    }
    i{
      font-size: 30px;
+     margin-top: 25px;
    }
  }
+}
+
+@media only screen and(max-width:600px){
+  .skill_card{
+    left:0;
+    flex-direction: column;
+    flex-direction: column;
+    top: 10%;
+  }
 }

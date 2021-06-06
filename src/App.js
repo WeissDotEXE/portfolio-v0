@@ -28,13 +28,13 @@ function App() {
 
           <Route
             exact
-            path='/Portofolio'
+            path='/portofolio'
             component={Portofolio}
           />
 
           <Route
             exact
-            path='Contact'
+            path='/contact'
             component={Contact}
           />
 

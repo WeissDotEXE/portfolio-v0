@@ -1,6 +1,7 @@
 //general variables for colors and fonts
 $BackgroundColor:linear-gradient(307.04deg, #F12929 -13.77%, #B0202F -9.4%, #861B33 -6.66%, #5A1537 5.69%, #2D0F3C 23.36%, #0F0B3F 35.72%, #0B082F 49.06%, #000000 112.03%);
 $EmphasizeColor: #009AFF;
+$DarkerEmphasizeColor:#01426d;
 $PrimaryColor: #F2F4F7;
 $PrimaryFont: 'Lato',sans-serif;
 $mobileBackgorund: linear-gradient(360deg, #F12929 -31.02%, #B0202F -26.47%, #861B33 -23.62%, #5A1537 -10.75%, #2D0F3C 7.66%, #0F0B3F 20.53%, #0B082F 34.42%, #000000 100%);
@@ -12,9 +13,9 @@ $NavbarPadding:0px 60px 0px 45px;
 
 //variables for FHD screens
 
-$h1FontSize_1FHD:55px;
-$h1FontSize_2FHD:40px;
-
+$h1FontSize_1FHD:50px;
+$h1FontSize_2FHD:35px;
+$pFontSize_FHD:23px;
 
 //variables for HD screens
 
@@ -24,3 +25,5 @@ $padding_left_right:0px 8% 0px 8%;
 
 
 //variables for mobile screens
+$h1FontSize_1Mobile:50px;
+$h1FontSize_2Mobile:28px;
