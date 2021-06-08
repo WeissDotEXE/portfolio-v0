@@ -29,7 +29,6 @@ body {
   right: 0;
   top: 20%;
   margin: 0px 8% 0px 8%;
-  z-index: 2;
   width: 30%;
   height: 60vh;
   background: #F2F4F7;
@@ -156,5 +155,83 @@ body {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   color: #009AFF;
+}
+
+@media only screen and (max-width: 1367px) {
+  .contact form {
+    padding: 40px;
+  }
+  .contact form label {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .contact form #msg_input {
+    height: 25%;
+  }
+  .contact form button {
+    height: 25%;
+  }
+  .contact .text h1 {
+    font-size: 45px;
+  }
+  .contact .text .email {
+    font-size: 30px;
+  }
+  .contact .social {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact img {
+    position: fixed;
+  }
+  .contact .text {
+    width: 90%;
+  }
+  .contact .text h1 {
+    font-size: 28px;
+  }
+  .contact .text .email {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact .text .email p {
+    font-size: 25px;
+  }
+  .contact .text .email i {
+    margin-top: 4px;
+  }
+  .contact form {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 20px;
+    width: 65%;
+    top: 50%;
+  }
+  .contact form button {
+    width: 100%;
+  }
+  .contact .social {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    top: 124%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=Contact.module.css.map */

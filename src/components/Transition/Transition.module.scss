@@ -15,28 +15,22 @@
     height: 500px;
   }
   #loadingBarBack{
-    border-radius: 10px;
     background-color: $PrimaryColor;
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 35%;
-    height: 15px; 
+    width: 37%;
+    height: 6px; 
   }
   #loadingBarFront{
-    border-radius: 10px;
     background-color: $EmphasizeColor;
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 0px;
-    height: 15px; 
+    height: 6px; 
   }
 }
 
-@media only screen and(max-width:600px){
-  .transition{
-  }
-}

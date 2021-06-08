@@ -1,128 +1,201 @@
-@import '../variables.scss';
-body{
-    padding: 0;
-    border: 0;
-    margin: 0;
+@import "../variables.scss";
+body {
+  padding: 0;
+  border: 0;
+  margin: 0;
 }
 
-.contact{
-    width: 100%;
+.contact {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
     height: 100vh;
-    position: relative;
-    img{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        object-fit: cover;
-        filter: brightness(35%);
+    object-fit: cover;
+    filter: brightness(35%);
+  }
+  form {
+    border-radius: 20px;
+    padding: 40px;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    margin: $padding_left_right;
+
+    width: 30%;
+    height: 60vh;
+    background: $PrimaryColor;
+    display: flex;
+    flex-direction: column;
+    label {
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-family: $PrimaryFont;
+      font-weight: bolder;
+      font-size: 30px;
     }
-    form{
-        border-radius: 20px;
-        padding: 40px;
-        position: absolute;
-        right: 0;
-        top: 20%;
-        margin: $padding_left_right;
-        z-index: 2;
-        width: 30%;
-        height: 60vh;
-        background: $PrimaryColor;
-        display: flex;
-        flex-direction: column;
-        label{
-            margin-top: 30px;
-            margin-bottom: 10px;
-            font-family: $PrimaryFont;
-            font-weight: bolder;
-            font-size: 30px;
-        }
-        #simple_input{
-            transition: 0.2s;
-            height: 10%;
-            width: 95%;
-            font-size: 20px;
-            padding: 5px 0px 5px 10px;
-            border-radius: 10px;
-        }
-        #msg_input{
-            transition: 0.2s;
-            height: 20%;
-            width: 93%;
-            font-size: 15px;
-            resize: none;
-            border-radius: 10px;
-            padding: 10px;
-            font-family: $PrimaryFont;
-        }
-        #msg_input:focus{
-            transition: 0.2s;
-            border: 3px solid $EmphasizeColor;
-            outline: none;
-        }
-        input:focus{
-            transition: 0.2s;
-            border: 3px solid $EmphasizeColor;
-            outline: none;
-        }
-        button{
-            transition: 0.4s;
-            margin-top: 10%;
-            width: 35%;
-            height: 15%;
-            background: $EmphasizeColor;
-            color: $PrimaryColor;
-            font-family: $PrimaryFont;
-            font-weight: bolder;
-            font-size: 25px;
-            border-radius: 10px;
-        }
-        button:hover{
-            transition: 0.4s;
-            background: black;
-        }
+    #simple_input {
+      transition: 0.2s;
+      height: 10%;
+      width: 95%;
+      font-size: 20px;
+      padding: 5px 0px 5px 10px;
+      border-radius: 10px;
     }
-    .text{
-        position: absolute;
+    #msg_input {
+      transition: 0.2s;
+      height: 20%;
+      width: 93%;
+      font-size: 15px;
+      resize: none;
+      border-radius: 10px;
+      padding: 10px;
+      font-family: $PrimaryFont;
+    }
+    #msg_input:focus {
+      transition: 0.2s;
+      border: 3px solid $EmphasizeColor;
+      outline: none;
+    }
+    input:focus {
+      transition: 0.2s;
+      border: 3px solid $EmphasizeColor;
+      outline: none;
+    }
+    button {
+      transition: 0.4s;
+      margin-top: 10%;
+      width: 35%;
+      height: 15%;
+      background: $EmphasizeColor;
+      color: $PrimaryColor;
+      font-family: $PrimaryFont;
+      font-weight: bolder;
+      font-size: 25px;
+      border-radius: 10px;
+    }
+    button:hover {
+      transition: 0.4s;
+      background: black;
+    }
+  }
+  .text {
+    position: absolute;
+    color: $PrimaryColor;
+    top: 20%;
+    left: 0;
+    font-size: $h1FontSize_2FHD;
+    margin-left: 4%;
+    width: 50%;
+    .email {
+      display: flex;
+      flex-direction: row;
+      margin-top: 14%;
+      i {
+        margin-top: 8px;
+        margin-right: 20px;
+      }
+    }
+  }
+  .social {
+    position: absolute;
+    bottom: 15%;
+    margin-left: 4%;
+    font-size: $h1FontSize_2FHD;
+    #social_txt {
+      font-size: $h1FontSize_2FHD;
+      color: $PrimaryColor;
+      margin-bottom: 20px;
+    }
+    a {
+      i {
+        transition: 0.4s;
         color: $PrimaryColor;
-        top: 20%;
-        left: 0;
-        font-size: $h1FontSize_2FHD;
-        margin-left:4%;
-        width: 50%;
-        .email{
-            display: flex;
-            flex-direction: row;
-            margin-top: 14%;
-            i{
-                margin-top: 8px;
-                margin-right: 20px;
-            }
-        }
+        margin-right: 20px;
+      }
     }
-    .social{
-        position: absolute;
-        bottom:15%;
-        margin-left:4%;
-        font-size: $h1FontSize_2FHD;
-        #social_txt{
-            font-size: $h1FontSize_2FHD;
-            color: $PrimaryColor;
-            margin-bottom: 20px;
-        }
-        a{
-            i{
-                transition: 0.4s;
-                color: $PrimaryColor;
-                margin-right: 20px;
-            }
-        }
-        a:hover{
-            i{
-                transition: 0.4s;
-                color: $EmphasizeColor;
-            }
-        }
+    a:hover {
+      i {
+        transition: 0.4s;
+        color: $EmphasizeColor;
+      }
     }
+  }
+}
+
+@media only screen and(max-width:1367px) {
+  .contact {
+    form {
+      padding: 40px;
+      label {
+        font-size: 18px;
+        margin-top: 20px;
+      }
+      #msg_input {
+        height: 25%;
+      }
+      button {
+        height: 25%;
+      }
+    }
+    .text {
+      h1 {
+        font-size: $h1FontSize_1HD;
+      }
+      .email {
+        font-size: $h1FontSize_2HD;
+      }
+    }
+    .social {
+      font-size: $h1FontSize_2HD;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact {
+    img {
+      position: fixed;
+    }
+    .text {
+      width: 90%;
+      h1 {
+        font-size: $h1FontSize_2Mobile;
+      }
+      .email {
+        justify-content: center;
+        p {
+          font-size: 25px;
+        }
+        i {
+          margin-top: 4px;
+        }
+      }
+    }
+    form {
+      justify-content: center;
+      align-items: center;
+      padding-top: 20px;
+      width: 65%;
+      top: 50%;
+      button {
+        width: 100%;
+      }
+    }
+    .social {
+        text-align: center;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 124%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      padding: 0;
+    }
+  }
 }

@@ -18,19 +18,17 @@
 }
 
 .transition #loadingBarBack {
-  border-radius: 10px;
   background-color: #F2F4F7;
   position: absolute;
   top: 70%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 35%;
-  height: 15px;
+  width: 37%;
+  height: 6px;
 }
 
 .transition #loadingBarFront {
-  border-radius: 10px;
   background-color: #009AFF;
   position: absolute;
   top: 70%;
@@ -38,6 +36,6 @@
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 0px;
-  height: 15px;
+  height: 6px;
 }
 /*# sourceMappingURL=Transition.module.css.map */
