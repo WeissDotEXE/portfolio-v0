@@ -29,7 +29,7 @@ body {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   color: #F2F4F7;
-  font-size: 100px;
+  font-size: 180px;
 }
 
 .about .intro .intro_btn {
@@ -48,14 +48,14 @@ body {
 }
 
 .about .intro .intro_btn a i {
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .about .intro .intro_btn a button {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   padding: 5px 20px 5px 20px;
-  font-size: 25px;
+  font-size: 50px;
   border-radius: 25px;
   font-weight: bolder;
   position: relative;
@@ -85,7 +85,7 @@ body {
   position: relative;
   top: 40%;
   color: #F2F4F7;
-  font-size: 50px;
+  font-size: 55px;
   padding: 0px 8% 0px 8%;
 }
 
@@ -93,7 +93,7 @@ body {
   position: relative;
   top: 45%;
   color: #009AFF;
-  font-size: 35px;
+  font-size: 40px;
   padding: 0px 8% 0px 8%;
 }
 
@@ -132,7 +132,7 @@ body {
   color: black;
   width: 55%;
   padding: 0px 8% 0px 8%;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .about .studies #studies_txt2 {
@@ -143,7 +143,7 @@ body {
   color: black;
   width: 55%;
   padding: 0px 8% 0px 8%;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .about .studies img {
@@ -184,7 +184,7 @@ body {
   padding: 0px 8% 0px 8%;
   top: 13%;
   color: #F2F4F7;
-  font-size: 50px;
+  font-size: 55px;
   width: 50%;
   z-index: 1;
 }
@@ -195,7 +195,7 @@ body {
   padding: 0px 8% 0px 8%;
   bottom: 13%;
   color: #F2F4F7;
-  font-size: 50px;
+  font-size: 55px;
   width: 50%;
   z-index: 1;
 }
@@ -227,7 +227,7 @@ body {
   width: 40%;
   height: 100%;
   top: 25%;
-  font-size: 50px;
+  font-size: 55px;
   padding: 0px 8% 0px 8%;
   margin-left: 7%;
 }
@@ -262,7 +262,7 @@ body {
 }
 
 .about .languages h1 {
-  font-size: 50px;
+  font-size: 55px;
   color: #009AFF;
   margin-bottom: 20px;
 }
@@ -276,12 +276,24 @@ body {
 
 .about .languages .languages_txt p {
   padding: 20px 40px 0px 0px;
-  font-size: 35px;
+  font-size: 40px;
 }
 
-@media only screen and (max-width: 1367px) {
+@media (min-width: 1024px) and (max-width: 1466px) {
+  .about .intro #intro_txt {
+    font-size: 80px;
+  }
+  .about .intro .intro_btn {
+    font-size: 20px;
+  }
+  .about .intro .intro_btn a i {
+    font-size: 40px;
+  }
+  .about .intro .intro_btn a button {
+    font-size: 30px;
+  }
   .about .presentation #first_txt {
-    font-size: 45px;
+    font-size: 53px;
   }
   .about .presentation #second_txt {
     font-size: 30px;
@@ -293,41 +305,42 @@ body {
     font-size: 30px;
   }
   .about .learning #learning_txt1 {
-    font-size: 45px;
+    font-size: 53px;
   }
   .about .learning #learning_txt2 {
-    font-size: 45px;
+    font-size: 53px;
   }
   .about .so_now .so_now_txt {
     position: relative;
     top: 25%;
   }
   .about .so_now .so_now_txt h1 {
-    top: 33%;
-    font-size: 45px;
+    top: 25%;
+    font-size: 53px;
     margin-left: 4.5%;
   }
   .about .so_now iframe {
     position: absolute;
     overflow: hidden;
-    width: 480px;
-    height: 264px;
+    width: 481px;
+    height: 269px;
     right: 0;
     padding: 0px 8% 0px 8%;
-    bottom: 16%;
+    bottom: 17%;
   }
   .about .skills {
-    height: 70vh;
+    height: 90vh;
+    font-size: 20px;
   }
   .about .languages h1 {
-    font-size: 35px;
+    font-size: 40px;
   }
   .about .languages .languages_txt p {
     font-size: 30px;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .about .intro #intro_txt {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -343,7 +356,7 @@ body {
   }
   .about .intro .intro_btn {
     width: 100%;
-    left: 50%;
+    left: 48%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -358,8 +371,21 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    font-size: 28px;
+  }
+  .about .intro .intro_btn a i {
+    font-size: 30px;
+  }
+  .about .intro .intro_btn a button {
+    font-size: 28px;
   }
   .about .presentation #first_txt {
+    z-index: 2;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 30px;
+  }
+  .about .presentation #second_txt {
+    font-size: 28px;
     z-index: 2;
     text-shadow: 2px 2px 4px #000000;
   }
@@ -412,7 +438,7 @@ body {
     height: 65vh;
   }
   .about .so_now .so_now_txt {
-    top: 0;
+    top: 30%;
     width: 100%;
   }
   .about .so_now .so_now_txt #left_line {
@@ -426,18 +452,7 @@ body {
     margin-left: 70px;
   }
   .about .so_now iframe {
-    overflow: hidden;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 0px;
-    bottom: -10%;
+    display: none;
   }
   .about .skills {
     width: 100%;
@@ -460,6 +475,9 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .about .languages h1 {
+    font-size: 28px;
+  }
   .about .languages .languages_txt {
     font-family: "Lato", sans-serif;
     display: -ms-grid;
@@ -476,6 +494,9 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    font-size: 28px;
+  }
+  .about .languages .languages_txt p {
     font-size: 28px;
   }
   .about .languages .languages_txt #lng {

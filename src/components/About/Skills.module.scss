@@ -8,12 +8,13 @@
   display: flex;
   #skills_txt{
     padding: 30px 0px 10px 0px;
+    font-size: 50px;
   }
   p{
     font-family: $PrimaryFont;
     font-weight: bold;
     padding: 18px;
-    font-size: 20px;
+    font-size: 30px;
   }
   i{
     font-size: 40px;
@@ -21,11 +22,11 @@
   }
 }
 
-@media only screen and(max-width:1367px){
+@media (min-width:1024px) and (max-width: 1966px){
  .skill_card{
    top:-10%;
    #skills_txt{
-     font-size: 25px;
+     font-size: 40px;
      padding: 20px 0px 10px 0px;
    }
    p{
@@ -44,5 +45,14 @@
     flex-direction: column;
     flex-direction: column;
     top: 10%;
+    #skills_txt{
+      font-size: 30px;
+    }
+    i{
+      margin-top: 30px;
+    }
+    p{
+      font-size: 20px;
+    }
   }
 }

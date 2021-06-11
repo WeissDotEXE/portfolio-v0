@@ -22,7 +22,7 @@ body{
             left: 50%;
             transform: translate(-50%, -50%);
             color: $PrimaryColor;
-            font-size: 100px;
+            font-size: 180px;
         }
         .intro_btn{
             position: absolute;
@@ -34,12 +34,12 @@ body{
                 padding: 20px;
                 color: $PrimaryColor;
                 i{
-                    font-size: 40px;
+                    font-size: 60px;
                 }
                 button{
                     transition: 0.5s;
                     padding: 5px 20px 5px 20px;
-                    font-size: 25px;
+                    font-size: 50px;
                     border-radius: 25px;
                     font-weight: bolder;
                     position: relative;
@@ -229,8 +229,24 @@ body{
 }
 
 
-@media only screen and(max-width:1367px){
+@media (min-width:1024px) and (max-width: 1466px){
     .about{
+        .intro{
+            #intro_txt{
+                font-size: 80px;
+            }
+            .intro_btn{
+                font-size: 20px;
+                a{
+                    i{
+                        font-size: 40px;
+                    }
+                    button{
+                        font-size:30px;
+                    }
+                }
+            }
+        }
         .presentation{
             #first_txt{
                 font-size: $h1FontSize_1HD;
@@ -260,7 +276,7 @@ body{
                 position: relative;
                 top: 25%;
                 h1{
-                    top:33%;
+                    top:25%;
                     font-size:$h1FontSize_1HD;
                     margin-left:4.5%;
                 }
@@ -268,15 +284,16 @@ body{
             iframe{
                 position: absolute;
                 overflow: hidden;
-                width: 480px;
-                height: 264px;
+                width: 481px;
+                height: 269px;
                 right: 0;
                 padding: $padding_left_right;
-                bottom: 16%;
+                bottom:17%;
             }
         }
         .skills{
-            height: 70vh;
+            height: 90vh;
+            font-size: 20px;
         }
         .languages{
             h1{
@@ -291,31 +308,45 @@ body{
     }
 }
 
-@media only screen and(max-width:600px){
+@media (max-width:600px){
     .about{
         .intro{
             #intro_txt{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                font-size:$h1FontSize_1Mobile;
+                font-size:50px;
                 width: 100%;
             }
             .intro_btn{
                 width:100%;
-                left: 50%;
+                left: 48%;
                 display: flex;
                 flex-direction: row;
                 margin: auto;
                 justify-content: center;
                 align-items: center;
+                font-size: $h1FontSize_2Mobile;
+                a{
+                    i{
+                        font-size: $h1FontSize_1Mobile;
+                    }
+                    button{
+                        font-size: $h1FontSize_2Mobile;
+                    }
+                }
             }
         }
         .presentation{
             #first_txt{
                 z-index: 2;
                 text-shadow: 2px 2px 4px #000000;
-
+                font-size: $h1FontSize_1Mobile;
+            }
+            #second_txt{
+                font-size: $h1FontSize_2Mobile;
+                z-index: 2;
+                text-shadow: 2px 2px 4px #000000;
             }
         }
         .studies{
@@ -357,7 +388,7 @@ body{
         .so_now{
             height: 65vh;
             .so_now_txt{
-                top:0;
+                top:30%;
                 width: 100%;
                 #left_line{
                     height: 200px;
@@ -371,12 +402,7 @@ body{
                 }
             }
             iframe{
-                overflow: hidden;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding:0px;
-                bottom:-10%;
+                display: none;
             }
         }
         .skills{
@@ -391,7 +417,13 @@ body{
             text-align: center;
             align-items: center;
             justify-content: center;
+            h1{
+                font-size: $h1FontSize_2Mobile;
+            }
             .languages_txt{
+                p{
+                    font-size:$h1FontSize_2Mobile;
+                }
                 font-family: $PrimaryFont;
                 display: grid;
                 grid-template-columns: 1fr 1fr;

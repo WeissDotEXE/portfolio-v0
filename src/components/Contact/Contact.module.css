@@ -110,7 +110,7 @@ body {
   color: #F2F4F7;
   top: 20%;
   left: 0;
-  font-size: 35px;
+  font-size: 55px;
   margin-left: 4%;
   width: 50%;
 }
@@ -135,11 +135,11 @@ body {
   position: absolute;
   bottom: 15%;
   margin-left: 4%;
-  font-size: 35px;
+  font-size: 55px;
 }
 
 .contact .social #social_txt {
-  font-size: 35px;
+  font-size: 55px;
   color: #F2F4F7;
   margin-bottom: 20px;
 }
@@ -157,6 +157,17 @@ body {
   color: #009AFF;
 }
 
+.succes_email {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  z-index: 3;
+  width: 60%;
+  height: 40vh;
+  background: #009AFF;
+  color: #F2F4F7;
+}
+
 @media only screen and (max-width: 1367px) {
   .contact form {
     padding: 40px;
@@ -172,13 +183,13 @@ body {
     height: 25%;
   }
   .contact .text h1 {
-    font-size: 45px;
+    font-size: 60px;
   }
   .contact .text .email {
-    font-size: 30px;
+    font-size: 40px;
   }
   .contact .social {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 
